@@ -22,15 +22,9 @@ Version summary:
 IMPLEMENTED FEATURES:
 - General Access Profile to enable connections
 - Generic Attribute Profile (GATT); gatt_svc.c; RGB Controller service. Set_RGB duty cycle 0-255 characteristic. 
-  Write Brightness characteristic.
+- Write Brightness characteristic.
 - Potentiometer reading via GPIO_1, ADC1, ADC_channel_1,
 - Button MODE and Button TAP_TEMPO via GPIO_7 and GPIO_6 with interrupt and debouncing
 - NVS storage; nvs_storage.c; to get and set last state (RGB, brightness, mode)
 - logic.c; Static, fade and pallete mode implemented. 
 - automatic dimming after inactivity implemented.
-
-CHANGES:
-- PWM frequency 1000 -> 800 Hz
-- ble brightness characteristic cb function commented out, since no implementation in QT. 
-
-TO DO LIST:
