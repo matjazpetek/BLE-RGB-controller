@@ -1,5 +1,4 @@
-
-<span style="color: green"> BLE-RGB-Controller </span>
+BLE-RGB-Controller
 
 MCU Pin Wiring:
 RED LED PWM     GPIO 10
